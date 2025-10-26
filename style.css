@@ -1,0 +1,111 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafe;
+  color: #111;
+}
+nav {
+  background: linear-gradient(90deg, #0047ab, #0386d1);
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+nav a:hover {
+  background: rgba(255,255,255,0.12);
+}
+header {
+  background: linear-gradient(100deg,#0386d1 60%, #dbefff 100%);
+  padding: 2.5rem 1rem 2rem 1rem;
+  color: #07369d;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+header p {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+.main-btn {
+  background: #0047ab;
+  color: #fff;
+  border: none;
+  padding: 0.72rem 2.2rem;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  font-weight: 600;
+}
+section {
+  max-width: 948px;
+  margin: 2rem auto;
+  background: #fff;
+  box-shadow: 0 4px 42px rgba(2,61,234,0.17);
+  border-radius: 15px;
+  padding: 2.2rem 2.1rem 1.4rem 2.1rem;
+  margin-bottom: 1.9rem;
+}
+section h2 {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+  color: #0059c2;
+}
+ul {
+  padding-left: 18px;
+  font-size: 1.13rem;
+}
+.feature-box {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.6rem;
+}
+.feature-card {
+  background: #e3f2fd;
+  padding: 1.2rem;
+  border-radius: 11px;
+  flex: 1 1 220px;
+  min-width: 200px;
+  box-shadow:0 0 16px rgba(33,151,226,0.11);
+  margin-bottom: 0.5rem;
+}
+.feature-card h3 { margin-top: 0; color:#0c4da2; }
+.resources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.1rem;
+}
+.resource-item {
+  background: #f7fafd;
+  padding: 1rem;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow:0 0 10px rgba(33,151,226,0.06);
+}
+footer {
+  background: #0047ab;
+  color:#fff;
+  text-align:center;
+  padding: 0.8rem 0;
+  font-size: 1.05rem;
+  border-top: 2px solid #0386d1;
+  margin-top: 30px;
+}
+@media (max-width:530px) {
+  header h1 { font-size:2rem;}
+  section { padding:1rem;}
+}
